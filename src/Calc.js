@@ -18,7 +18,7 @@ class Calc extends React.Component {
         </div>
 
         <div>
-          <button>Calculate!!</button>
+          <button>Calculate!!!</button>
         </div>
 
         <div>
