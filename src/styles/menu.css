@@ -1,0 +1,23 @@
+.main-nav-avtive {
+    text-decoration:underline;
+    color: tomato;
+}
+
+.main-nav:hover {
+    color:tomato !important
+}
+.main-nav {
+    margin-left: 20px;
+    font-family: 'Carter One', cursive;
+    margin-top: 6px;
+}
+.logoStyle {
+    max-width: 3.5rem;
+}
+
+.menuBar {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+}
+

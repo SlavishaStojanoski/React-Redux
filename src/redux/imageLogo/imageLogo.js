@@ -32,7 +32,7 @@ const fetchImageSmall = () => {
 
     dispatch(fetchImageSmallPending())
 
-    fetch('https://picsum.photos/id/1082/100/60')
+    fetch('https://picsum.photos/id/1082/45/45')
       .then(res => res.arrayBuffer())
       .then(buffer => {
         if (!buffer) {
