@@ -10,7 +10,7 @@ const fetchImage = () => {
 
     dispatch(fetchImagePending())
 
-    fetch('https://picsum.photos/id/1082/1024/980')
+    fetch('https://picsum.photos/id/1082/1280/740')
       .then(res => res.arrayBuffer())
       .then(buffer => {
         if (!buffer) {

@@ -15,11 +15,12 @@ import Menu from './components/Menu.js'
 import Login from './components/Login.js'
 import Logout from './components/Logout.js'
 
+
 function App() {
   const { username, password } = useSelector(state => state.loginReducer)
   const userAuth = username || localStorage.getItem('username')
   const passAuth = password || localStorage.getItem('password')
-
+ 
 
   return (
     <BrowserRouter>
@@ -27,6 +28,7 @@ function App() {
         <Menu />
 
         <Switch>
+     
           <Route path='/login'>
             <Login />
           </Route>
@@ -43,7 +45,7 @@ function App() {
             <Albums />
           </Route>
 
-          <Route path='/artists'>
+          <Route path='/artist'>
             <Artists />
           </Route>
 
@@ -59,7 +61,7 @@ function App() {
           <Route path='*'>
             <NotFound />
           </Route>
-
+  
         </Switch>
       </>
       :

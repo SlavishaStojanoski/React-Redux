@@ -13,7 +13,7 @@ const SearchBar = () => {
     dispatch(searchAlbum(value))
   }
 
-  return <InputGroup className='mb-3'>
+  return <InputGroup className='mb-6'>
     <FormControl
       type='text'
       onChange={saveText}

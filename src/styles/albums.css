@@ -1,0 +1,26 @@
+#albumStyle {
+    margin-left: 200px;
+    padding-top: 100px;
+}
+
+#albumImg {
+    width: 100px;
+}
+
+.tabelStyle {
+    margin-top: 1rem;
+    color: aqua;
+}
+
+.textHeaderStyle {
+    color: aqua;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.tableContentStyle {
+    font-family: 'Carter One', cursive;
+    color: #154BBF;
+    font-style: italic;
+   
+}

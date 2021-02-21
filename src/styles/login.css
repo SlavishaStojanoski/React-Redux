@@ -1,8 +1,20 @@
-/* .Login-component {
-    background: url(../images//ssss.jpg) no-repeat center center fixed;
-  background-size: cover;
+.Login-component {
+    background: url(../images/bgimg.jpeg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    padding: 170px;
 }
 
 .loginForm {
-    height: 100%;
-} */
+  margin-left: 40%;
+  margin-top: 150px;
+} 
+
+.welcomeHeader {
+  font-family: 'Carter One', cursive;
+  font-style: italic;
+  color: aliceblue;
+  font-size: 2rem;
+}

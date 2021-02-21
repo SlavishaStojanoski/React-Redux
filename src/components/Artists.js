@@ -1,7 +1,12 @@
 import React from 'react'
+import '../styles/componentsStyle.css'
 
 const Artists = () => {
-  return <div>Artists</div>
+  return (
+    <header className='componentsBackground'>
+      <div>Artists</div>
+    </header>
+  )
 }
 
 export default Artists

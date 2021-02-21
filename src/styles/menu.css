@@ -1,4 +1,4 @@
-.main-nav-avtive {
+.main-nav:active {
     text-decoration:underline;
     color: tomato;
 }
@@ -9,7 +9,7 @@
 .main-nav {
     margin-left: 20px;
     font-family: 'Carter One', cursive;
-    margin-top: 6px;
+    cursor: pointer;
 }
 .logoStyle {
     max-width: 3.5rem;
@@ -19,5 +19,13 @@
     position: fixed !important;
     top: 0;
     width: 100%;
+}
+
+#justifyMenuBar {
+    justify-content: space-between;
+}
+
+#logoImg {
+    margin-left: 10px;
 }
 

@@ -2,6 +2,7 @@ import React, {
   useEffect, 
   // useContext 
 } from 'react'
+import '../styles/componentsStyle.css'
 import { Spinner } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchSongs } from '../redux/songs/songs'
@@ -24,7 +25,12 @@ const Songs = () => {
 
   if (error) return <div>{error}</div>
 
-  return <div>{data.map(song => song.name)}</div>
+  return (
+    <header className='componentsBackground'>
+      <div>{data.map(song => song.name)}</div>
+    </header>
+  )
+  
 }
 
 export default Songs
